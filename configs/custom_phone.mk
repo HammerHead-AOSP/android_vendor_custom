@@ -16,7 +16,7 @@ include vendor/custom/configs/aosp_fixes.mk
 include vendor/custom/configs/bootanimation.mk
 include vendor/custom/configs/custom_main.mk
 include vendor/custom/configs/system_additions.mk
-include vendor/custom/configs/version.mk
+#include vendor/custom/configs/version.mk
 
 # Telephony packages
 PRODUCT_PACKAGES += \

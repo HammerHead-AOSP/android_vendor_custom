@@ -23,5 +23,4 @@ PRODUCT_PACKAGES += \
 
 # Custom Packages
 PRODUCT_PACKAGES += \
-    Busybox \
-    PureNexusSettings
+    Chromium

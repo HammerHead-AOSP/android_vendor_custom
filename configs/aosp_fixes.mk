@@ -25,12 +25,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
 
 # Proprietary latinime libs needed for Keyboard swyping
-ifneq ($(filter shamu,$(TARGET_PRODUCT)),)
+ifneq ($(filter shamu hammerhead,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES += \
-    vendor/custom/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+    vendor/custom/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinimegoogle.so \
+    vendor/custom/prebuilt/lib/libjni_keyboarddecoder.so:system/lib/libjni_keyboarddecoder.so
 else
 PRODUCT_COPY_FILES += \
-    vendor/custom/prebuilt/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so
+    vendor/custom/prebuilt/lib64/libjni_latinime.so:system/lib64/libjni_latinimegoogle.so
 endif
 
 # Camera Effects for devices without a vendor partition

@@ -4,4 +4,4 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    vendor/custom/sepolicy
+   vendor/custom/sepolicy

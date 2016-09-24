@@ -22,8 +22,8 @@ PRODUCT_COPY_FILES += \
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
-    vendor/custom/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
-    vendor/custom/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
+#    vendor/custom/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
+#    vendor/custom/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
     vendor/custom/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh \
 
 # Security Enhanced Linux
