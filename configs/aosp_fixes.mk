@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
 endif
 
 # Camera Effects for devices without a vendor partition
-ifneq ($(filter shamu,$(TARGET_PRODUCT)),)
+ifneq ($(filter shamu hammerhead,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES +=  \
     vendor/custom/prebuilt/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/custom/prebuilt/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd

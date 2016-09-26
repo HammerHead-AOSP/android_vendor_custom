@@ -14,7 +14,8 @@
 
 # init.d script support
 PRODUCT_COPY_FILES += \
-    vendor/custom/prebuilt/bin/sysinit:system/bin/sysinit
+    vendor/custom/prebuilt/bin/sysinit:system/bin/sysinit \
+    vendor/custom/prebuilt/bin/00banner:system/etc/init.d/00banner
 
 # Pure-specific init file
 PRODUCT_COPY_FILES += \
@@ -22,9 +23,9 @@ PRODUCT_COPY_FILES += \
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
-#    vendor/custom/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
-#    vendor/custom/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/custom/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh \
+   	vendor/custom/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh \
+   	vendor/custom/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
+   	vendor/custom/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions
 
 # Security Enhanced Linux
 PRODUCT_PROPERTY_OVERRIDES += \
