@@ -28,5 +28,5 @@ PRODUCT_MANUFACTURER := LGE
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=hammerhead \
-    BUILD_FINGERPRINT=google/hammerhead/hammerhead:7.0/NRD90U/3155372:user/release-keys \
-    PRIVATE_BUILD_DESC="hammerhead-user 7.0 NRD90U 3155372 release-keys"
+    BUILD_FINGERPRINT=google/hammerhead/hammerhead:7.0/NBD90Z/3264873:user/release-keys \
+    PRIVATE_BUILD_DESC="hammerhead-user 7.0 NBD90Z 3264873 release-keys"

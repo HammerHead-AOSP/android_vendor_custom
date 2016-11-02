@@ -1,2 +1,3 @@
 # Allow ViPER4Android in enforcing mode.
 allow mediaserver mediaserver_tmpfs:file { read write execute };
+

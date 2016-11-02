@@ -18,7 +18,7 @@ ifndef ROM_BUILD_TYPE
 endif
 
 ROM_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(ROM_BUILD_TYPE)
-ROM_NAME := pure_nexus
+ROM_NAME := aosp
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.rom.version=$(ROM_VERSION)
